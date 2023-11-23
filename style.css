@@ -9,6 +9,22 @@ body {
   line-height: 1.5;
 }
 
+.links {
+  float: right;
+}
+
+.hero-banner img {
+  max-height: 200px;
+}
+
+#banner-image {
+  width: 100%;
+  background-image: url(.hero-banner);
+  height: 500px;
+  background-position: center;
+  object-fit: cover;
+}
+
 h1,
 h2,
 h3,
