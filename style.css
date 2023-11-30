@@ -9,8 +9,18 @@ body {
   line-height: 1.5;
 }
 
+.navbar {
+  background-color: gray;
+}
+
 .links {
   float: right;
+  color: aqua;
+}
+
+.title {
+color: aqua;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .hero-banner {
@@ -29,6 +39,10 @@ body {
   height: 300px;
   background-position: center;
   object-fit: cover;
+}
+
+.page-wrapper {
+  background-color: lightslategrey;
 }
 
 
