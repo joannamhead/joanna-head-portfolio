@@ -5,12 +5,13 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  line-height: 1.5;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
+
 
 .navbar {
   background-color: gray;
+  margin-bottom: 50px;
 }
 
 .links {
@@ -26,8 +27,8 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 
 .hero-banner {
   position: relative;
-  margin-bottom: 50px;
-  margin-top: 50px;
+  margin-bottom: 0px;
+  margin-top: 0px;
   
 }
 
@@ -36,6 +37,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
   right: 0;
   top: 45%;
   color: aqua;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 #banner-image {
@@ -43,12 +45,14 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
   background-image: url(.hero-banner);
   height: 300px;
   background-position: center;
-  object-fit: cover;
+  object-fit: cover;  
 }
 
 .page-wrapper {
   background-color: lightslategrey;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
+
 
 
 .page-section {
