@@ -82,6 +82,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
   align-items: flex-end;
   width: 49%;
   justify-content: space-between;
+  margin: 30px;
 }
 
 .page-section h2 {
@@ -91,7 +92,18 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 
 .project img {
   height: 100%;
+  margin: 20px;
 }
+
+.project h3 {
+  text-align: left;
+}
+
+.project span {
+  text-align: left;
+}
+
+
 
 h1,
 h2,
