@@ -3,21 +3,22 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
+  background-color: lightslategray;
+  margin-top: 30px;
+  padding: 0px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 
 .navbar {
-  background-color: gray;
+  background-color: lightslategray;
   margin-bottom: 50px;
 }
 
 .links {
   float: right;
   color: aqua;
-  background-color: gray;
+  background-color: lightslategray;
 }
 
 .title {
@@ -49,6 +50,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 }
 
 .page-wrapper {
+  margin: 50px;
   background-color: lightslategrey;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
@@ -80,6 +82,10 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
   align-items: flex-end;
   width: 49%;
   justify-content: space-between;
+}
+
+.page-section h2 {
+  color: aqua;
 }
 
 
