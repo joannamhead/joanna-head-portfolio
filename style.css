@@ -16,6 +16,7 @@ body {
 .links {
   float: right;
   color: aqua;
+  background-color: gray;
 }
 
 .title {
@@ -25,12 +26,16 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 
 .hero-banner {
   position: relative;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  
 }
 
 .hero-banner h2 {
   position: absolute;
   right: 0;
   top: 45%;
+  color: aqua;
 }
 
 #banner-image {
